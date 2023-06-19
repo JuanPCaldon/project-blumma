@@ -1,0 +1,257 @@
+
+:root{
+    --primario : #fff0f1 ;
+    --secundario:  #dadada;
+    --blanco : #FFFFFF;
+    --negro: #17202A ;
+
+    --fuenteP: font-family: 'Roboto', sans-serif;
+}
+body{
+        
+    background-color:var(--blanco);
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+
+/* encabezado */
+
+
+.encabezado{
+
+  height: 25px;  
+  background-color: var(--primario);
+  color: black ;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;;
+
+
+}
+
+
+/* fin encabezado */
+
+/* inicio navbar */
+.navbar_principal{
+
+  display: flex;
+  justify-content: space-between;
+ font-family: 'Roboto', sans-serif;
+
+ margin-bottom: 40px;
+
+   
+
+
+
+
+}
+.links_navbar{
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 15px;
+    color: black;
+    
+  
+
+}
+:hover.links_navbar{
+    text-decoration:overline;
+
+
+}
+
+.navbar_primario{
+
+
+
+   
+
+}
+
+.navbar_secundario{
+
+margin-top: 30px;
+
+}
+.links_navbar_logo{
+
+font-size: 50px;
+text-decoration: none;
+margin-right: 25px;
+font-family: 'Mynerve', cursive;
+color: black;
+
+
+
+
+}
+
+/* fin de navbar */
+
+
+
+
+
+/*inicio grid home */
+
+.grid_home_1{
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    min-height: 500px;
+    margin-bottom: 30px;
+    }
+
+.grid_1{
+    width: 100%;
+    height: 100%;
+
+     grid-row: 1 / 3 ;
+     grid-column: 1 / 2 ;
+    
+     background-image: url(../img-product/t_m_6.jpeg);
+     background-size: cover;
+   
+     background-repeat: no-repeat;
+     transform: .5s;
+     object-fit: cover;
+   
+}
+.grid_2{
+    width: 100%;
+    height: 100%;
+   
+   background-image: url(../img-product/cadena_candy_1.jpeg);
+   background-size: cover;
+  
+   background-repeat: no-repeat;
+
+   transform: .5s;
+   object-fit: cover;
+
+}
+
+.grid_3{
+
+    width: 100%;
+    height: 100%;
+   grid-row: 2 / 3 ;
+   grid-column: 2 / 3 ;
+   background-image: url(../img-product/mini_candongas_4.jpeg);
+   background-repeat:no-repeat;
+   background-size: cover;
+
+   transform: .5s;
+   object-fit: cover;
+ 
+}
+
+.grid_1:hover{
+
+  opacity: 1;
+  filter: contrast(120%);  
+  transform: scale(1.1); 
+  
+
+}
+
+.grid_2:hover{
+
+    opacity: 1;
+    filter: contrast(120%);  
+    transform: scale(1.1); 
+  
+  
+  }
+
+.grid_3:hover{
+
+    opacity: 1;
+    filter: contrast(120%);  
+    transform: scale(1.1); 
+  
+  
+}  
+
+.titulo_grid_1{
+
+    text-align: center;
+    color: var(--blanco);
+    font-family: 'Mynerve', cursive;
+    margin-top: 200px;
+   
+}
+
+.titulo_grid_2{
+
+    text-align: center;
+    color: var(--blanco);
+    font-family: 'Mynerve', cursive;
+    margin-top: 100px;
+   
+}
+
+.titulo_grid_3{
+
+    text-align: center;
+    color: var(--blanco);
+    font-family: 'Mynerve', cursive;
+    margin-top: 100px;
+   
+}
+
+
+
+
+
+
+
+/* fin grod home */
+
+
+/* transicion_1 */
+.section_blumma{
+
+   min-height: 400px;
+   min-width:200px;
+   background-image: url(../img/blumma_portada_face.jpg);
+   background-size: cover;
+  
+
+}
+.logo_blumma{ 
+
+  
+
+
+}
+
+.separador_1{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+/* fin transicion_1*/
+
+
+/* list products inicio */
+.listproducts{
+
+    display: flex ;
+    justify-content: space-between;
+    
+
+
+
+}
+
+
+/* list products fin */
